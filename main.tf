@@ -3,7 +3,7 @@ data "aws_ami" "app_ami" {
 
   filter {
     name   = "name"
-    values = ["Microsoft Windows Server 2022 Base"]
+    values = ["bitnami-tomcat-*-x86_64-hvm-ebs-nami"]
   }
 
   filter {
